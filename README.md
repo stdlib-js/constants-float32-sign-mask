@@ -33,6 +33,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT32_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-sign-mask@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float32-sign-mask/tags). For example,
+
+```javascript
 import FLOAT32_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-sign-mask@v0.0.1-esm/index.mjs';
 ```
 
@@ -78,7 +83,7 @@ var bool = ( FLOAT32_SIGN_MASK === 0x80000000 );
 
 import toWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-to-word@esm/index.mjs';
 import fromWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-word@esm/index.mjs';
-import FLOAT32_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-sign-mask@v0.0.1-esm/index.mjs';
+import FLOAT32_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-sign-mask@esm/index.mjs';
 
 var x = -11.5;
 var w = toWord( x ); // 1 10000010 01110000000000000000000
