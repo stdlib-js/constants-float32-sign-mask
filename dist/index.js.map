@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../tmp/index.js"],
+  "sourcesContent": ["/** @license Apache-2.0 */\n'use strict';\nvar FLOAT32_SIGN_MASK = 0x80000000>>>0;\nmodule.exports = FLOAT32_SIGN_MASK;\n"],
+  "mappings": "aAEA,IAAIA,EAAoB,WACxB,OAAO,QAAUA",
+  "names": ["FLOAT32_SIGN_MASK"]
+}
