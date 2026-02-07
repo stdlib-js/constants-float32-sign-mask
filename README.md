@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT32_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-sign-mask@deno/mod.js';
+import FLOAT32_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-sign-mask@v0.2.3-deno/mod.js';
 ```
 
 #### FLOAT32_SIGN_MASK
@@ -84,7 +84,7 @@ var bool = ( FLOAT32_SIGN_MASK === 0x80000000 );
 ```javascript
 import toWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-to-word@deno/mod.js';
 import fromWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-word@deno/mod.js';
-import FLOAT32_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-sign-mask@deno/mod.js';
+import FLOAT32_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-sign-mask@v0.2.3-deno/mod.js';
 
 var x = -11.5;
 var w = toWord( x ); // 1 10000010 01110000000000000000000
